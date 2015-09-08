@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SimpGaits</class>
+ <widget class="QWidget" name="SimpGaits">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="3">
+    <layout class="QGridLayout" name="gaitsLayout">
+     <item row="4" column="3">
+      <widget class="QPushButton" name="helrollButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Helix
+Rolling</string>
+       </property>
+       <property name="icon">
+        <iconset resource="snakecontroller.qrc">
+         <normaloff>:/gaiticons/img/he.jpg</normaloff>:/gaiticons/img/he.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gaitsButtonGrp</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="homeButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Home</string>
+       </property>
+       <property name="icon">
+        <iconset resource="snakecontroller.qrc">
+         <normaloff>:/gaiticons/img/h.jpg</normaloff>:/gaiticons/img/h.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gaitsButtonGrp</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="latrollButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Lateral
+Rolling</string>
+       </property>
+       <property name="icon">
+        <iconset resource="snakecontroller.qrc">
+         <normaloff>:/gaiticons/img/ro.jpg</normaloff>:/gaiticons/img/ro.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gaitsButtonGrp</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="linhiButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Linear
+High</string>
+       </property>
+       <property name="icon">
+        <iconset resource="snakecontroller.qrc">
+         <normaloff>:/gaiticons/img/lpha.jpg</normaloff>:/gaiticons/img/lpha.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gaitsButtonGrp</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="sidewindloButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Sidewinding
+Low Amp</string>
+       </property>
+       <property name="icon">
+        <iconset resource="snakecontroller.qrc">
+         <normaloff>:/gaiticons/img/swl.jpg</normaloff>:/gaiticons/img/swl.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gaitsButtonGrp</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="sidewindButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Sidewinding</string>
+       </property>
+       <property name="icon">
+        <iconset resource="snakecontroller.qrc">
+         <normaloff>:/gaiticons/img/sw.jpg</normaloff>:/gaiticons/img/sw.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gaitsButtonGrp</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="linButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Linear</string>
+       </property>
+       <property name="icon">
+        <iconset resource="snakecontroller.qrc">
+         <normaloff>:/gaiticons/img/lp.jpg</normaloff>:/gaiticons/img/lp.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gaitsButtonGrp</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="linoffsetButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Linear
+Offset</string>
+       </property>
+       <property name="icon">
+        <iconset resource="snakecontroller.qrc">
+         <normaloff>:/gaiticons/img/lpo.jpg</normaloff>:/gaiticons/img/lpo.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>48</width>
+         <height>48</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">gaitsButtonGrp</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="2">
+      <spacer name="verticalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="3" column="4">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="3" column="0">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <layout class="QVBoxLayout" name="paramLayout">
+     <item>
+      <widget class="QLabel" name="gaitparamTitle">
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Gait Parameters</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item row="10" column="2">
+        <widget class="QLabel" name="phaseEvenLabel">
+         <property name="text">
+          <string>Phase difference</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="2">
+        <widget class="QLabel" name="wavEvenLabel">
+         <property name="text">
+          <string>Wavelength 
+(# modules per wave)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="5">
+        <widget class="QPushButton" name="freqInvert">
+         <property name="text">
+          <string>Invert Motion</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="evenLabel">
+         <property name="font">
+          <font>
+           <family>Ubuntu</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Even n</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="wavOddLabel">
+         <property name="text">
+          <string>Wavelength 
+(# modules per wave)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="5">
+        <widget class="QPushButton" name="wavInvert">
+         <property name="text">
+          <string>Invert Shape</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="oddLabel">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Odd n</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="4">
+        <widget class="QCheckBox" name="phaseCoupled">
+         <property name="text">
+          <string>Coupled</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="phaseOddLabel">
+         <property name="text">
+          <string>Phase difference</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="3">
+        <widget class="QDoubleSpinBox" name="wavEvenBox">
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-9999.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>9999.000000000000000</double>
+         </property>
+         <property name="value">
+          <double>8.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QDoubleSpinBox" name="ampOddBox">
+         <property name="suffix">
+          <string> pi</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-0.500000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>0.500000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.005000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QDoubleSpinBox" name="freqOddBox">
+         <property name="suffix">
+          <string> Hz</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-4.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>4.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="3">
+        <widget class="QDoubleSpinBox" name="phaseEvenBox">
+         <property name="wrapping">
+          <bool>true</bool>
+         </property>
+         <property name="suffix">
+          <string> pi</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-2.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>2.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.005000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="5">
+        <widget class="QPushButton" name="phaseInvert">
+         <property name="text">
+          <string>Invert Phase</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QDoubleSpinBox" name="wavOddBox">
+         <property name="suffix">
+          <string/>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-9999.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>9999.000000000000000</double>
+         </property>
+         <property name="value">
+          <double>8.000000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLabel" name="ampEvenLabel">
+         <property name="text">
+          <string>Amplitude</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QDoubleSpinBox" name="ampEvenBox">
+         <property name="suffix">
+          <string> pi</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-0.500000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>0.500000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.005000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="freqOddLabel">
+         <property name="text">
+          <string>Frequency</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QLabel" name="freqEvenLabel">
+         <property name="text">
+          <string>Frequency</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="3">
+        <widget class="QDoubleSpinBox" name="freqEvenBox">
+         <property name="suffix">
+          <string> Hz</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-4.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>4.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.050000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QDoubleSpinBox" name="offsetOddBox">
+         <property name="suffix">
+          <string> pi</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-0.500000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>0.500000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.005000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QCheckBox" name="offsetCoupled">
+         <property name="text">
+          <string>Coupled</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="4">
+        <widget class="QCheckBox" name="ampCoupled">
+         <property name="text">
+          <string>Coupled</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="offsetOddLabel">
+         <property name="text">
+          <string>Offset</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="4">
+        <widget class="QCheckBox" name="wavCoupled">
+         <property name="text">
+          <string>Coupled</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QDoubleSpinBox" name="offsetEvenBox">
+         <property name="suffix">
+          <string> pi</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-0.500000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>0.500000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.005000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="ampOddLabel">
+         <property name="text">
+          <string>Amplitude</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="offsetEvenLabel">
+         <property name="text">
+          <string>Offset</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="4">
+        <widget class="QCheckBox" name="freqCoupled">
+         <property name="text">
+          <string>Coupled</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QDoubleSpinBox" name="phaseOddBox">
+         <property name="wrapping">
+          <bool>true</bool>
+         </property>
+         <property name="suffix">
+          <string> pi</string>
+         </property>
+         <property name="decimals">
+          <number>3</number>
+         </property>
+         <property name="minimum">
+          <double>-2.000000000000000</double>
+         </property>
+         <property name="maximum">
+          <double>2.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.005000000000000</double>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>319</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="swopButton">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Swop Odd/Even
+Parameters</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>318</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>22</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>offsetOddBox</tabstop>
+  <tabstop>offsetEvenBox</tabstop>
+  <tabstop>offsetCoupled</tabstop>
+  <tabstop>ampOddBox</tabstop>
+  <tabstop>ampEvenBox</tabstop>
+  <tabstop>ampCoupled</tabstop>
+  <tabstop>freqOddBox</tabstop>
+  <tabstop>freqEvenBox</tabstop>
+  <tabstop>freqCoupled</tabstop>
+  <tabstop>freqInvert</tabstop>
+  <tabstop>wavOddBox</tabstop>
+  <tabstop>wavEvenBox</tabstop>
+  <tabstop>wavCoupled</tabstop>
+  <tabstop>wavInvert</tabstop>
+  <tabstop>phaseOddBox</tabstop>
+  <tabstop>phaseEvenBox</tabstop>
+  <tabstop>phaseCoupled</tabstop>
+  <tabstop>phaseInvert</tabstop>
+  <tabstop>homeButton</tabstop>
+  <tabstop>linButton</tabstop>
+  <tabstop>linoffsetButton</tabstop>
+  <tabstop>linhiButton</tabstop>
+  <tabstop>sidewindButton</tabstop>
+  <tabstop>sidewindloButton</tabstop>
+  <tabstop>helrollButton</tabstop>
+  <tabstop>latrollButton</tabstop>
+ </tabstops>
+ <resources>
+  <include location="snakecontroller.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>homeButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>SimpGaits</receiver>
+   <slot>resetHome(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>400</x>
+     <y>79</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>586</x>
+     <y>-3</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>resetHome(bool)</slot>
+ </slots>
+ <buttongroups>
+  <buttongroup name="gaitsButtonGrp"/>
+ </buttongroups>
+</ui>

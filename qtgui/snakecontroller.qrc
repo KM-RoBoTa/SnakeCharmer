@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/gaiticons">
+        <file>img/swl.jpg</file>
+        <file>img/sw.jpg</file>
+        <file>img/ro.jpg</file>
+        <file>img/lpo.jpg</file>
+        <file>img/lpha.jpg</file>
+        <file>img/lp.jpg</file>
+        <file>img/he.jpg</file>
+        <file>img/h.jpg</file>
+    </qresource>
+</RCC>
