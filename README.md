@@ -5,4 +5,4 @@ Snake charming is the ancient art of controlling snakes through music* and body 
 
 Details on the graphical user interface can be found in the user guide (UserGuide.pdf).
 
-*Disclaimer: Like how snake charming does not really depend on music, our Snake Charmer program does not control the snake robots through music or soundwaves. However, you may play some music while controlling the snake robots, in the spirit of the snake charming practice.
+*Disclaimer: Like how snake charming does not really depend on music, our Snake Charmer program does not control the snake robots through music or soundwaves. It's just *simple* math (arithmetics and trigonometry to be specific)! (However, you may play some music while controlling the snake robots, in the spirit of the snake charming practice.)
